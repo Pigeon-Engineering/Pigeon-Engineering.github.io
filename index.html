@@ -367,7 +367,7 @@ document.getElementById('enq').addEventListener('submit', function(ev){
   ev.preventDefault();
   var f = new FormData(ev.target);
   var body = 'Name: '+f.get('name')+'\nEmail: '+f.get('email')+'\nEcosystem: '+f.get('eco')+'\n\n'+f.get('msg');
-  window.location.href = 'mailto:insert-email@example.com?subject='+encodeURIComponent('Quote enquiry')+'&body='+encodeURIComponent(body);
+  window.location.href = 'mailto:PigeonENG@protonmail.com?subject='+encodeURIComponent('Quote enquiry')+'&body='+encodeURIComponent(body);
   document.getElementById('status').textContent = 'Opening your email app…';
 });
 </script>
